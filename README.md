@@ -17,7 +17,7 @@ Run the inference script by (Single GPU)
 python ego4d_face_tracking.py --input_folder (your_video_path) --save_folder (output_dir)
 ```
 Multi GPU (You can refer to Accelerate)
-Setup .[Accelerate]_(https://huggingface.co/docs/accelerate/index).
+Setup [Accelerate](https://huggingface.co/docs/accelerate/index)
 ```
 accelerate config
 accelerate launch ego4d_face_tracking.py --input_folder (your_video_path) --save_folder (output_dir)

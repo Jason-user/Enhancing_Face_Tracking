@@ -1,7 +1,7 @@
 # Meta-Face-Tracking
-<video autoplay muted loop id="myVideo">
-    <source src="https://www.youtube.com/watch?v=eX6vWHXW4sc" type="video/mp4">
- </video>
+<video autoplay muted loop width="400">
+    <source width=400 src="avtdrvnfyh.mp4" type="video/mp4">
+</video>
 
 ## Environment setup
 ```

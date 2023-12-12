@@ -14,6 +14,9 @@ git clone https://github.com/Jason-user/Meta_tracking
 conda create --name your_env_name python=3.10
 ```
 ```
+conda activate your_env_name
+```
+```
 cd Meta_tracking
 ```
 ```

@@ -8,9 +8,17 @@
 
 ## Environment setup
 ```
+git clone https://github.com/Jason-user/Meta_tracking
+```
+```
+conda create --name your_env_name python=3.10
+```
+```
+cd Meta_tracking
+```
+```
 conda env create -f environment.yml
 ```
-
 Install the modified version of facexlib by
 ```
 cd facexlib

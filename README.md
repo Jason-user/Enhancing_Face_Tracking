@@ -51,4 +51,4 @@ then run:
 python meta_tracking.py --old_csv_video_path (csv_file and video path) --filename (The video you are going to process)
 ```
 
-If the same face is identified with different IDs after meta_tracking, you can increase the "distance_threshold" in meta_tracking.py, at row number 152
+If the same face is identified with different IDs after meta_tracking, you can increase the "distance_threshold" in meta_tracking.py, at row number 158

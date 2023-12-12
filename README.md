@@ -18,6 +18,7 @@ pip install -e .
 ```
 
 ## Download pre-trained weight
+After downloading, put it into folder
 [resnet18](https://github.com/Jason-user/Meta_tracking/releases)
 
 ## Tracking

@@ -45,7 +45,7 @@ accelerate launch ego4d_face_tracking.py --input_folder (your_video_path) --save
 ```
 
 ## Meta Tracking
-Put the video and csv_file (generated from ego4d_face_tracking.py) together (Within same folder).
+Put videos and csv_files (generated from ego4d_face_tracking.py) together (Within same folder).
 then run:
 ```
 python meta_tracking.py --old_csv_video_path (csv_file and video path) --filename (The video you are going to process)

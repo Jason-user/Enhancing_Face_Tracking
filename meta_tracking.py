@@ -1,6 +1,6 @@
 '''
 Put the video and csv_file (generated from ego4d_face_tracking.py) together (Within same folder).
-Change filename (the video you are going to process), then run: python meta_tracking.py
+then run: python meta_tracking.py --old_csv_video_path (csv_file and video path) --filename (The video you are going to process)
 '''
 
 import cv2

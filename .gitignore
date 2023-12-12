@@ -1,0 +1,6 @@
+/output
+/nora_data
+*.pth
+*.png
+*.mp4
+readme.txt

@@ -1,4 +1,4 @@
-# Meta-Face-Tracking
+# Meta Face Tracking
 
 ## Tracking
 ![](avtdrvnfyh_tracking.gif)
@@ -18,8 +18,8 @@ pip install -e .
 ```
 
 ## Download pre-trained weight
-After downloading, put it into folder
-[resnet18](https://github.com/Jason-user/Meta_tracking/releases)
+After downloading [resnet18](https://github.com/Jason-user/Meta_tracking/releases), put it into the folder
+
 
 ## Tracking
 Run the inference script by (Single GPU)

@@ -1,20 +1,25 @@
 '''
 After generating the new_csv_file (from meta_tracking.py), put it and the video together(within same folder)
-You have to verify video_name first, then run: python demo.py
 '''
 
 import csv
 import os
 
+import argparse
 import numpy as np
 import cv2
 from facexlib.visualization.vis_headpose import draw_axis
 from tqdm.auto import tqdm
 
-video_name = 'cqqozdaojd'
+parser = argparse.ArgumentParser()
+parser.add_argument('--csv_video_path', help='Path to csv_video_path', type=str)
+parser.add_argument('--video_name', help='The video you are going to process', type=str)
+args = parser.parse_args()
+
 
 max_frame = 200 # number of processing frames, set to `None` to process the entire video
-csv_vidoe_path = './nora_data'
+video_name = args.video_name
+csv_vidoe_path = args.csv_video_path
 fname = csv_vidoe_path + '/' + video_name
 save_dir = './output/' + video_name + '/images'
 os.makedirs(save_dir, exist_ok=True)

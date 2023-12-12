@@ -1,7 +1,6 @@
 # Meta-Face-Tracking
-<video autoplay muted loop width="400">
-    <source width=400 src="avtdrvnfyh.mp4" type="video/mp4">
-</video>
+## After Tracking
+![](avtdrvnfyh_tracking.gif)
 
 ## Environment setup
 ```

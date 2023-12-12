@@ -21,13 +21,19 @@ from facexlib.utils.face_restoration_helper import FaceRestoreHelper
 from facexlib.recognition.recognition import resnet_face18
 from sklearn.cluster import AgglomerativeClustering
 
-filename = 'crybjsrcff'
-old_csv_video_path = './nora_data'
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--old_csv_video_path', help='Path to csv_video_path', type=str)
+parser.add_argument('--filename', help='The video you are going to process', type=str)
+args = parser.parse_args()
+
+# filename = 'crybjsrcff'
+# old_csv_video_path = './nora_data'
 
 max_frame = None # number of processing frames, set to `None` to process the entire video
-video_path = old_csv_video_path + '/' + filename + '.mp4'
-csv_path = old_csv_video_path + '/' + filename
-csv_output_path = old_csv_video_path + '/' + filename  ### Directly replace the old one
+video_path = args.old_csv_video_path + '/' + args.filename + '.mp4'
+csv_path = args.old_csv_video_path + '/' + args.filename
+csv_output_path = args.old_csv_video_path + '/' + args.filename  ### Directly replace the old one
 
 face_helper = FaceRestoreHelper(upscale_factor=1, face_size=512, crop_ratio=(1, 1), det_model='retinaface_resnet50', save_ext='png')
 face_helper.clean_all()

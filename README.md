@@ -17,6 +17,9 @@ cd facexlib
 pip install -e .
 ```
 
+## Download pre-trained weight
+[resnet18](https://github.com/Jason-user/Meta_tracking/releases)
+
 ## Tracking
 Run the inference script by (Single GPU)
 ```

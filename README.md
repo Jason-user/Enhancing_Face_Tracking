@@ -1,6 +1,10 @@
 # Meta-Face-Tracking
-## After Tracking
+
+## Tracking
 ![](avtdrvnfyh_tracking.gif)
+
+## Meta Tracking
+![](avtdrvnfyh_meta.gif)
 
 ## Environment setup
 ```

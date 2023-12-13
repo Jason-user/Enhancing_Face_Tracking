@@ -2,11 +2,19 @@ import cv2
 import numpy as np
 import glob
 import os
+import argparse
 
-image_path = '/scratch2/users/jason890425/face_tracking/output/cqqozdaojd/images'
+parser = argparse.ArgumentParser()
+parser.add_argument('--images_path', help='Path to images', type=str)
+parser.add_argument('--output_path', help='Path to output', type=str)
+parser.add_argument('--filename', help='The video you are going to process', type=str)
+args = parser.parse_args()
+
+image_path = args.images_path
+output_path = args.output_path
 frameSize = (1920, 1080)
 
-out = cv2.VideoWriter('/scratch2/users/jason890425/face_tracking/output/cqqozdaojd/video/' + 'cqqozdaojd' + '.mp4', cv2.VideoWriter_fourcc(*'MP4V'), 20, frameSize)
+out = cv2.VideoWriter(output_path + '/' + args.filename + '.mp4', cv2.VideoWriter_fourcc(*'MP4V'), 20, frameSize)
 filename_list = os.listdir(image_path)
 filename_list.sort()
 

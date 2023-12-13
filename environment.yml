@@ -1,4 +1,4 @@
-name: meta
+name: meta_tracking
 channels:
   - pytorch
   - nvidia

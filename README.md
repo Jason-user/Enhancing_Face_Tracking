@@ -22,6 +22,8 @@ conda activate meta_tracking
 Install the modified version of facexlib by
 ```
 cd facexlib
+```
+```
 pip install -e .
 ```
 
@@ -38,6 +40,8 @@ Multi GPU (You can refer to [Accelerate](https://huggingface.co/docs/accelerate/
 
 ```
 accelerate config
+```
+```
 accelerate launch ego4d_face_tracking.py --input_folder (your_video_path) --save_folder (output_dir)
 ```
 

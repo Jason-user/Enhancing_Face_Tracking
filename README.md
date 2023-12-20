@@ -11,7 +11,7 @@
 git clone https://github.com/Jason-user/Meta_tracking
 ```
 ```
-cd Meta_tracking
+cd Meta_tracking/
 ```
 ```
 conda env create -f environment.yml
@@ -21,7 +21,7 @@ conda activate meta_tracking
 ```
 Install the modified version of facexlib by
 ```
-cd facexlib
+cd facexlib/
 ```
 ```
 pip install -e .

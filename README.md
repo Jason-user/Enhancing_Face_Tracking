@@ -3,7 +3,7 @@
 ## Tracking
 ![](gif_file/avtdrvnfyh_tracking.gif)
 
-## After Enhancing
+## Enhancing Tracking
 ![](gif_file/avtdrvnfyh_meta.gif)
 
 ## Environment setup

@@ -1,4 +1,4 @@
-# Meta Face Tracking
+# Enhancing Face Tracking
 
 ## Tracking
 ![](gif_file/avtdrvnfyh_tracking.gif)
